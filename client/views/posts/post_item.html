@@ -2,11 +2,12 @@
 	<div class = "post">
 		<div class = "post-content">
 			<h3>
-				<a href = "{{url}}">{{title}}</a>
-			
-				<span>{{domain}}</span>
-
+				<a href = "{{pathFor "postPage"}}">{{title}}</a>
+				<span> <a href = "{{url}}" > {{domain}} </a> </span>
 			</h3>
 		</div>
+
+		<a href = "{{pathFor "postPage"}}" class = "discuss btn">Discuss</a>
+
 	</div>
 </template>
