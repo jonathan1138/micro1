@@ -5,9 +5,4 @@ Template.postItem.helpers({
 		return a.hostname;
 	},
 
-	theAuthor: function() {
-		return this.hostname;
-	}
-
-
 });
