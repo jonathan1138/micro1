@@ -1,13 +1,18 @@
-<template name = "postItem">
-	<div class = "post">
-		<div class = "post-content">
-			<h3>
-				<a href = "{{pathFor "postPage"}}">{{title}}</a>
-				<span> <a href = "{{url}}" > {{domain}} </a> </span>
-			</h3>
-		</div>
+<template name="postItem">
+  <div class="post">
+    <div class="post-content">
+      <h3>
 
-		<a href = "{{pathFor "postPage"}}" class = "discuss btn">Discuss</a>
+      <a href="{{url}}">{{title}}</a>
 
-	</div>
+      <span>{{domain}}</span>
+      
+      <span> {{message}} </span></h3>
+    
+    </div>
+    <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Discuss</a>
+  </div>
 </template>
+
+
+
