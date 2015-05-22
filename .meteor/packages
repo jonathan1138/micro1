@@ -9,3 +9,6 @@ insecure
 bootstrap
 iron:router
 sacha:spin
+accounts-password
+aldeed:template-extension
+ian:accounts-ui-bootstrap-3
