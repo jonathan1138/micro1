@@ -8,6 +8,11 @@
       <span>{{domain}}</span>
       
       <span> {{message}} </span></h3>
+
+      <p>
+      	Submitted By: {{author}}
+      	{{#if ownPost}}<a href = "{{pathFor 'postEdit'}}">Edit</a>{{/if}}
+      </p>
     
     </div>
     <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Discuss</a>
